@@ -11,3 +11,14 @@ def test_pwm_invalid_boundaries(device, value):
     r = device.command(f"SET PWM {value}")
     assert r["status"] == "ERROR"
     assert r["code"] == "INVALID_VALUE"
+
+@pytest.mark.parametrize("value", ["aa", "1.5", "$#@!%^^&"])
+def test_pwm_malformed_values(device, value):
+    r = device.command(f"SET PWM {value}")
+    assert r["status"] == "ERROR"
+    assert r["code"] == "INVALID_VALUE"
+
+def test_pwm_empty_values(device):
+    r = device.command(f"SET PWM  ")
+    assert r["status"] == "ERROR"
+    assert r["code"] == "UNKNOWN_COMMAND"
