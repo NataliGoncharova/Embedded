@@ -22,7 +22,7 @@ def auto_reset_device(device_connection):
     # Виконується ПЕРЕД кожним тестом
     try:
         device_connection.command("RESET")
-        time.sleep(0.5)  # Пауза, щоб мікроконтролер встиг перезавантажитися
+        time.sleep(1.0)  # Пауза, щоб мікроконтролер встиг перезавантажитися
     except Exception as e:
         pytest.fail(f"Failed to reset device before test: {e}")
         
