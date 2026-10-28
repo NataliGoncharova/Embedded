@@ -3,7 +3,7 @@ import time
 import serial
 
 class Device:
-    def __init__(self, port, baudrate=115200, timeout=1.0):
+    def __init__(self, port, baudrate=115200, timeout=2.0):
         # serial_for_url accepts both a COM port (COM5, /dev/ttyUSB0)
         # and a Wokwi RFC2217 URL (rfc2217://localhost:4000)
         self.ser = serial.serial_for_url(port, baudrate=baudrate, timeout=timeout)
@@ -25,6 +25,8 @@ class Device:
 
     def command(self, command):
         raw = self.command_raw(command)
+        print(f"Device response: {raw}")
+
         try:
             return json.loads(raw)
         except json.JSONDecodeError as e:
