@@ -1,0 +1,161 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=POWER_ON
+                            [TIMESTAMP_POST_BOOT] 0.832 s
+                                                         [WDT] enabled timeout=4000 ms
+                                                                                      Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+{"state":"ACTIVE","reset_reason":"POWER_ON","relay":false,"counter":0,"heap":336068,"sensor_ok":true}
+[CLI] ERROR unknown command
+[TIMESTAMP_PRE_HANG] 21.202 s
+                             [FAULT] firmware hang
+E (31669) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (31669) task_wdt:  - loopTask (CPU 1)
+E (31669) task_wdt: Tasks currently running:
+E (31669) task_wdt: CPU 0: IDLE0
+E (31669) task_wdt: CPU 1: loopTask
+E (31669) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 26.716 s
+                                                         [WDT] enabled timeout=4000 ms
+                                                                                      Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+[CLI] ERROR unknown command
+[TIMESTAMP_PRE_HANG] 64.020 s
+                             [FAULT] firmware hang
+E (55260) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (55260) task_wdt:  - loopTask (CPU 1)
+E (55260) task_wdt: Tasks currently running:
+E (55260) task_wdt: CPU 0: IDLE0
+E (55260) task_wdt: CPU 1: loopTask
+E (55260) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 69.535 s
+                                                         [WDT] enabled timeout=4000 ms
+                                                                                      Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+[TIMESTAMP_PRE_HANG] 135.523 s
+                              [FAULT] firmware hang
+E (83496) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (83496) task_wdt:  - loopTask (CPU 1)
+E (83496) task_wdt: Tasks currently running:
+E (83496) task_wdt: CPU 0: IDLE0
+E (83496) task_wdt: CPU 1: loopTask
+E (83496) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 141.038 s
+                                                          [WDT] enabled timeout=4000 ms
+                                                                                       Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+{"state":"ACTIVE","reset_reason":"INT_WDT","relay":false,"counter":0,"heap":336068,"sensor_ok":true}

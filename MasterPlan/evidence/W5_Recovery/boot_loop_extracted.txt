@@ -1,0 +1,690 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=POWER_ON
+                            [TIMESTAMP_POST_BOOT] 0.832 s
+                                                         [WDT] enabled timeout=4000 ms
+                                                                                      Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+[TIMESTAMP_PRE_HANG] 5.819 s
+                            [FAULT] firmware hang
+E (18798) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (18798) task_wdt:  - loopTask (CPU 1)
+E (18798) task_wdt: Tasks currently running:
+E (18798) task_wdt: CPU 0: IDLE0
+E (18798) task_wdt: CPU 1: loopTask
+E (18798) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 11.333 s
+                                                         [WDT] enabled timeout=4000 ms
+                                                                                      Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+[CLI] ERROR unknown command
+[TIMESTAMP_PRE_HANG] 17.403 s
+                             [FAULT] firmware hang
+E (13199) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (13199) task_wdt:  - loopTask (CPU 1)
+E (13199) task_wdt: Tasks currently running:
+E (13199) task_wdt: CPU 0: IDLE0
+E (13199) task_wdt: CPU 1: loopTask
+E (13199) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 22.917 s
+                                                         [WDT] enabled timeout=4000 ms
+                                                                                      Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+[TIMESTAMP_PRE_HANG] 26.818 s
+                             [FAULT] firmware hang
+E (20079) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (20079) task_wdt:  - loopTask (CPU 1)
+E (20079) task_wdt: Tasks currently running:
+E (20079) task_wdt: CPU 0: IDLE0
+E (20079) task_wdt: CPU 1: loopTask
+E (20079) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 32.333 s
+                                                         [WDT] enabled timeout=4000 ms
+                                                                                      Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+[TIMESTAMP_PRE_HANG] 34.417 s
+                             [FAULT] firmware hang
+E (7597) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (7597) task_wdt:  - loopTask (CPU 1)
+E (7597) task_wdt: Tasks currently running:
+E (7597) task_wdt: CPU 0: IDLE0
+E (7597) task_wdt: CPU 1: loopTask
+E (7597) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 39.931 s
+                                                         [WDT] enabled timeout=4000 ms
+                                                                                      Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+[TIMESTAMP_PRE_HANG] 41.285 s
+                             [FAULT] firmware hang
+E (13366) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (13366) task_wdt:  - loopTask (CPU 1)
+E (13366) task_wdt: Tasks currently running:
+E (13366) task_wdt: CPU 0: IDLE0
+E (13366) task_wdt: CPU 1: loopTask
+E (13366) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 46.799 s
+                                                         [WDT] enabled timeout=4000 ms
+                                                                                      Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+[TIMESTAMP_PRE_HANG] 50.283 s
+                             [FAULT] firmware hang
+E (24128) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (24128) task_wdt:  - loopTask (CPU 1)
+E (24128) task_wdt: Tasks currently running:
+E (24128) task_wdt: CPU 0: IDLE0
+E (24128) task_wdt: CPU 1: loopTask
+E (24128) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 55.798 s
+                                                         [WDT] enabled timeout=4000 ms
+                                                                                      Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+[TIMESTAMP_PRE_HANG] 57.283 s
+                             [FAULT] firmware hang
+E (10865) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (10865) task_wdt:  - loopTask (CPU 1)
+E (10865) task_wdt: Tasks currently running:
+E (10865) task_wdt: CPU 0: IDLE0
+E (10865) task_wdt: CPU 1: loopTask
+E (10865) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 62.798 s
+                                                         [WDT] enabled timeout=4000 ms
+                                                                                      Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+[TIMESTAMP_PRE_HANG] 65.666 s
+                             [FAULT] firmware hang
+E (20263) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (20263) task_wdt:  - loopTask (CPU 1)
+E (20263) task_wdt: Tasks currently running:
+E (20263) task_wdt: CPU 0: IDLE0
+E (20263) task_wdt: CPU 1: loopTask
+E (20263) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 71.181 s
+                                                         [WDT] enabled timeout=4000 ms
+                                                                                      Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+[TIMESTAMP_PRE_HANG] 72.534 s
+                             [FAULT] firmware hang
+E (7353) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (7353) task_wdt:  - loopTask (CPU 1)
+E (7353) task_wdt: Tasks currently running:
+E (7353) task_wdt: CPU 0: IDLE0
+E (7353) task_wdt: CPU 1: loopTask
+E (7353) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 78.048 s
+                                                         [WDT] enabled timeout=4000 ms
+                                                                                      Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+[TIMESTAMP_PRE_HANG] 81.300 s
+                             [FAULT] firmware hang
+E (17650) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (17650) task_wdt:  - loopTask (CPU 1)
+E (17650) task_wdt: Tasks currently running:
+E (17650) task_wdt: CPU 0: IDLE0
+E (17650) task_wdt: CPU 1: loopTask
+E (17650) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 86.815 s
+                                                         [WDT] enabled timeout=4000 ms
+                                                                                      Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+[TIMESTAMP_PRE_HANG] 90.367 s
+                             [FAULT] firmware hang
+E (8753) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (8753) task_wdt:  - loopTask (CPU 1)
+E (8753) task_wdt: Tasks currently running:
+E (8753) task_wdt: CPU 0: IDLE0
+E (8753) task_wdt: CPU 1: loopTask
+E (8753) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 95.881 s
+                                                         [WDT] enabled timeout=4000 ms
+                                                                                      Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+[CLI] ERROR unknown command
+[CLI] ERROR unknown command
+{"state":"ACTIVE","reset_reason":"INT_WDT","relay":false,"counter":0,"heap":336068,"sensor_ok":true}
+[TIMESTAMP_PRE_HANG] 112.202 s
+                              [FAULT] firmware hang
+E (25092) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (25092) task_wdt:  - loopTask (CPU 1)
+E (25092) task_wdt: Tasks currently running:
+E (25092) task_wdt: CPU 0: IDLE0
+E (25092) task_wdt: CPU 1: loopTask
+E (25092) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 117.716 s
+                                                          [WDT] enabled timeout=4000 ms
+                                                                                       Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+[TIMESTAMP_PRE_HANG] 120.850 s
+                              [FAULT] firmware hang
+E (20187) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (20187) task_wdt:  - loopTask (CPU 1)
+E (20187) task_wdt: Tasks currently running:
+E (20187) task_wdt: CPU 0: IDLE0
+E (20187) task_wdt: CPU 1: loopTask
+E (20187) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 126.365 s
+                                                          [WDT] enabled timeout=4000 ms
+                                                                                       Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+[TIMESTAMP_PRE_HANG] 130.517 s
+                              [FAULT] firmware hang
+E (12609) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (12609) task_wdt:  - loopTask (CPU 1)
+E (12609) task_wdt: Tasks currently running:
+E (12609) task_wdt: CPU 0: IDLE0
+E (12609) task_wdt: CPU 1: loopTask
+E (12609) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 136.032 s
+                                                          [WDT] enabled timeout=4000 ms
+                                                                                       Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+[TIMESTAMP_PRE_HANG] 138.734 s
+                              [FAULT] firmware hang
+E (19008) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (19008) task_wdt:  - loopTask (CPU 1)
+E (19008) task_wdt: Tasks currently running:
+E (19008) task_wdt: CPU 0: IDLE0
+E (19008) task_wdt: CPU 1: loopTask
+E (19008) task_wdt: Aborting.
+
+abort() was called at PC 0x400dbfc9 on core 0
+
+
+Backtrace: 0x400835b5:0x3ffbea8c |<-CORRUPTED
+
+
+
+
+ELF file SHA256: f9dc9c5a6b4fba7e
+
+ets Jul 29 2019 12:21:46
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1156
+load:0x40078000,len:11456
+ho 0 tail 12 room 4
+load:0x40080400,len:2972
+entry 0x400805dc
+[BOOT] reset_reason=INT_WDT
+                           [TIMESTAMP_POST_BOOT] 144.248 s
+                                                          [WDT] enabled timeout=4000 ms
+                                                                                       Commands:
+  help
+  status
+  sensor
+  relay on
+  relay off
+  save
+  sleep <seconds>
+  hang
+  powerloss
+  reboot
+{"state":"ACTIVE","reset_reason":"INT_WDT","relay":false,"counter":0,"heap":336068,"sensor_ok":true}
