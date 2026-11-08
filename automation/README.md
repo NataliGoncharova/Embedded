@@ -35,7 +35,6 @@
 
 За звітом [Python_Automation_Honcharova.docx](../evidence/W6_Pytest/Python_Automation_Honcharova.docx): 20 записаних результатів — 13 PASS / 7 FAIL; 6 FAIL класифіковано як дефекти прошивки, 1 (`test_ping`, `TimeoutError`) — як проблему тесту. Скріншоти pytest — у [`evidence/W6_Pytest/`](../evidence/W6_Pytest/).
 
-> У наборі 21 тест-кейс: у журналі виконання немає рядка для `test_pwm_valid_boundaries[99]`.
 
 ## Запуск
 
